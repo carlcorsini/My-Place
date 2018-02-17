@@ -5,6 +5,7 @@
     <title>form</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src= "index.js" type="text/javascript"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -19,30 +20,34 @@
         </ul>
       </div>
     </nav>
-    <div class="form">
-      <form class="the form" action="index.html" method="post">
+    <div class="website-form">
+      <form class="the form" action="my-site.html" method="post">
         Theme <br>
-        <select class="theme" name="theme">
+        <select class="theme-options" name="theme">
           <option value="blue">Blue</option>
           <option value="grey">Grey</option>
           <option value="black">Black</option>
           <option value="white">White</option>
-        </select> <br>
+        </select>
+        <br> <br>
         Ambience <br>
-        <select class="ambience" name="ambience">
+        <select class="ambience-options" name="ambience">
           <option value="waves">Waves</option>
           <option value="seagulls">Seagulls</option>
           <option value="city">City</option>
           <option value="night">Night</option>
         </select>
-        <br>
+        <br> <br>
         Page Content <br>
-        <input type="file" name="bio1" value="">
-        <input type="text" name="bio1" value=""> <br> <br>
-        <input type="file" name="bio2" value="">
-        <input type="text" name="bio2" value=""> <br> <br>
-        <input type="file" name="bio3" value="">
-        <input type="text" name="bio3" value=""> <br> <br>
+        <input class="fill-in" type="file" name="bio1" value="">
+        <input class="fill-in" type="text" name="bio1" value=""> <br> <br>
+        <input class="fill-in" type="file" name="bio2" value="">
+        <input class="fill-in" type="text" name="bio2" value=""> <br> <br>
+        <input class="fill-in" type="file" name="bio3" value="">
+        <input class="fill-in" type="text" name="bio3" value=""> <br> <br>
+
+        Make My Site! <br>
+        <button type="submit" name="button">Make it!</button>
       </form>
     </div>
   </body>
