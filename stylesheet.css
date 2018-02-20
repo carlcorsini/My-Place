@@ -174,12 +174,16 @@ background-color: inherit;
 }
 
 .audio-div {
+  margin: auto;
   text-align: center;
   position: absolute;
   bottom: 1; right: 0;  left: 0;
+  max-width: 25%
 }
 
-
+.black-nav {
+  color: black;
+}
 
 .container {
   width: 90%;
@@ -287,6 +291,7 @@ hr.style-two {
 .navbar-default {
   position: relative;
   background: linear-gradient(white, transparent);
+  border: none;
 }
 
 header nav {
@@ -296,8 +301,7 @@ header nav {
 
 .navbar-brand {
   /* filter: opacity(0.75) */
-  border: 1px solid black;
-  background-color: white;
+  background: linear-gradient(to bottom, white, transparent);
 }
 /* slant  */
 .se-container{
