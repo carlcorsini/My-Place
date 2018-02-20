@@ -6,8 +6,11 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <script src= "index.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+    <link rel="icon" href="http://pngimg.com/uploads/eye/eye_PNG35680.png">
   </head>
-  <body>
+  <body class>
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
@@ -22,15 +25,46 @@
     </nav>
     <div class="website-form">
       <form class="the form" action="my-site.html" method="post">
-        Theme <br>
-        <select class="theme-options" name="theme">
+        <h3>Theme</h3>
+        Primary Theme <br>
+        <select class="primary-theme-options" name="theme">
           <option value="blue">Blue</option>
           <option value="grey">Grey</option>
           <option value="black">Black</option>
           <option value="white">White</option>
         </select>
         <br> <br>
-        Ambience <br>
+        Secondary Theme <br>
+        <select class="secondary-theme-options" name="theme">
+          <option value="blue2">Blue</option>
+          <option value="grey3">Grey</option>
+          <option value="black4">Black</option>
+          <option value="white5">White</option>
+        </select>
+        <br> <br>
+        <h3>Font</h3>
+        Heading Font <br>
+        <select class="header-options" name="font">
+          <option value="actor">Actor</option>
+          <option value="dekko">Dekko</option>
+          <option value="georgia">Georgia</option>
+          <option value="trebuchet">Trebuchet</option>
+        </select><br> <br>
+        Body Font <br>
+        <select class="body-options" name="font">
+          <option value="actor">Actor</option>
+          <option value="dekko">Dekko</option>
+          <option value="georgia">Georgia</option>
+          <option value="trebuchet">Trebuchet</option>
+        </select><br> <br>
+        Example:
+          <div class="font-example-div">
+            <h3 class="header-example">this is the heading</h3>
+            <p class ="font-example">here is the font, a jolly good example of the font I might add, a quite good example to figure out if this is the font you want to use indeed</p>
+            <button class="example-button" type="button" name="button">show me</button>
+          </div>
+        <br> <br>
+        <h3>Ambience</h3>
         <select class="ambience-options" name="ambience">
           <option value="waves">Waves</option>
           <option value="seagulls">Seagulls</option>
@@ -47,7 +81,7 @@
         <input class="fill-in" type="text" name="bio3" value=""> <br> <br>
 
         Make My Site! <br>
-        <button type="submit" name="button">Make it!</button>
+        <button class="submit-button" type="submit" name="button">Make it!</button>
       </form>
     </div>
   </body>
