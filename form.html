@@ -14,10 +14,9 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Carlz Site</a>
+          <a class="navbar-brand" href="index.html">Home</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li class = "white"><a href="index.html">Home</a></li>
           <li class = "white"><a href="form.html">Make Your Own!</a></li>
           <li class = "white"><a href="my-site.html">My Site :)</a></li>
         </ul>
@@ -28,20 +27,21 @@
         <h3>Theme</h3>
         Primary Theme <br>
         <select class="primary-theme-options" name="theme">
-          <option value="blue">Blue</option>
+          <option value="white">White</option>
           <option value="grey">Grey</option>
           <option value="black">Black</option>
-          <option value="white">White</option>
+          <option value="blue">Blue</option>
         </select>
         <br> <br>
         Secondary Theme <br>
         <select class="secondary-theme-options" name="theme">
-          <option value="blue2">Blue</option>
-          <option value="grey3">Grey</option>
-          <option value="black4">Black</option>
-          <option value="white5">White</option>
+          <option value="white2">White</option>
+          <option value="grey2">Grey</option>
+          <option value="black2">Black</option>
+          <option value="orange">Orange</option>
         </select>
         <br> <br>
+        <hr class= "style-two">
         <h3>Font</h3>
         Heading Font <br>
         <select class="header-options" name="font">
@@ -58,29 +58,42 @@
           <option value="trebuchet">Trebuchet</option>
         </select><br> <br>
         Example:
+        <h3 class="header-example">this is the heading</h3>
           <div class="font-example-div">
-            <h3 class="header-example">this is the heading</h3>
-            <p class ="font-example">here is the font, a jolly good example of the font I might add, a quite good example to figure out if this is the font you want to use indeed</p>
+            <div class="secondary-div">
+              <p class ="font-example">here is the font, a jolly good example of the font I might add, a quite good example to figure out if this is the font you want to use indeed.</p>
+            </div>
             <button class="example-button" type="button" name="button">show me</button>
           </div>
         <br> <br>
+        <hr class= "style-two">
         <h3>Ambience</h3>
         <select class="ambience-options" name="ambience">
-          <option value="waves">Waves</option>
-          <option value="seagulls">Seagulls</option>
-          <option value="city">City</option>
-          <option value="night">Night</option>
+          <option value="audio/gulls.wav">Seagulls</option>
+          <option value="audio/funky.wav">Funky</option>
+          <option value="audio/city.wav">City</option>
+          <option value="audio/jungle.m4a">Jungle</option>
         </select>
         <br> <br>
-        Page Content <br>
-        <input class="fill-in" type="file" name="bio1" value="">
-        <input class="fill-in" type="text" name="bio1" value=""> <br> <br>
-        <input class="fill-in" type="file" name="bio2" value="">
-        <input class="fill-in" type="text" name="bio2" value=""> <br> <br>
-        <input class="fill-in" type="file" name="bio3" value="">
-        <input class="fill-in" type="text" name="bio3" value=""> <br> <br>
-
-        Make My Site! <br>
+        <hr class= "style-two">
+        <h3>Page Content</h3>
+        Heading: <br>
+        <input class="header-input" type="text" name="heading" value=""><br><br>
+        Footer: <br>
+        <input class="footer-input" type="text" name="footer" value=""><br><br>
+        Image 1 Address: <br>
+        <input class="image1-input" type="url" name="img1" value=""><br>
+        Body 1: <br>
+        <input class="bio1-input" type="text" name="bio1" value=""><br><br>
+        Image 2 Address: <br>
+        <input class="image2-input" type="url" name="img2" value=""><br>
+        Body 2: <br>
+        <input class="bio2-input" type="text" name="bio2" value=""><br><br>
+        Image 3 Address: <br>
+        <input class="image3-input" type="text" name="img3" value=""><br>
+        Body 3: <br>
+        <input class="bio3-input" type="text" name="bio3" value=""><br><br>
+        <br>
         <button class="submit-button" type="submit" name="button">Make it!</button>
       </form>
     </div>
