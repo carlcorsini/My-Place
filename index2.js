@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let bio1Output = JSON.parse(localStorage.getItem('bio1Input'))
   let bio2Output = JSON.parse(localStorage.getItem('bio2Input'))
   let bio3Output = JSON.parse(localStorage.getItem('bio3Input'))
+  // Div
   let row1 = document.querySelector('.row1')
   let row2 = document.querySelector('.row2')
   let rowRight = document.querySelector('.row-right')
@@ -25,18 +26,20 @@ document.addEventListener('DOMContentLoaded', function() {
   let bio1 = document.querySelector('.bio1')
   let bio2 = document.querySelector('.bio2')
   let bio3 = document.querySelector('.bio3')
+  let body = document.querySelector('.body-my-site')
       myContainer.classList.add(primaryThemeStorage)
+      body.classList.add(primaryThemeStorage)
       row1.classList.add(bodyStorage, secondaryThemeStorage)
       row2.classList.add(bodyStorage, secondaryThemeStorage)
       rowRight.classList.add(bodyStorage, secondaryThemeStorage)
-      header.classList.add(headerStorage, secondaryThemeStorage)
+      header.classList.add(headerStorage, primaryThemeStorage)
       footer.classList.add(headerStorage, secondaryThemeStorage)
       header.innerHTML = headerOutput
       footer.innerHTML = footerOutput
       audio.src = ambienceStorage
-      img1.src = image1Output || "images/urdad.jpg"
-      img2.src = image2Output || "images/urdad.jpg"
-      img3.src = image3Output || "images/urdad.jpg"
+      img1.src = image1Output || 'images/urdad.jpg'
+      img2.src = image2Output || 'images/urdad.jpg'
+      img3.src = image3Output || 'images/urdad.jpg'
       bio1.innerHTML = bio1Output
       bio2.innerHTML = bio2Output
       bio3.innerHTML = bio3Output

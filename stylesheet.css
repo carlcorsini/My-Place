@@ -1,16 +1,19 @@
 /* Themes */
 /* =============== */
 .blue {
-  background-color: #020739;
+  background-color: #305B89;
+  background-image: url(https://previews.123rf.com/images/rommmeo79/rommmeo791610/rommmeo79161000180/64978650-chinese-blue-seamless-pattern-dragon-fish-scales-simple-seamless-pattern-nature-background-with-japa.jpg);
+  background-attachment: fixed;
 }
 
 .orange {
   background-color: #F88F09;
-  color: black;
 }
 
 .grey {
-  background-color: #343434
+  background-color: #343434;
+  background-image: url(http://silviahartmann.com/background-tile-art/images/grey-repeating-background-5.jpg);
+  background-attachment: fixed;
 }
 
 .grey2 {
@@ -19,6 +22,8 @@
 }
 
 .black {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/spiration-dark.png);
+  background-attachment: fixed;
   background-color: black;
 }
 
@@ -29,11 +34,13 @@
 
 .white {
   background-color: white;
+  background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/996886/580/580/m1/fpnw/wm0/seamless-background-80s65-.jpg?1455603691&s=e7616985eac801bc87e55bae06441a32);
+  background-attachment: fixed;
 }
 
 .white2 {
   background-color: white;
-  color: black
+  color: black;
 }
 
 #blue {
@@ -181,23 +188,32 @@ background-color: inherit;
   max-width: 25%
 }
 
-.black-nav {
-  color: black;
+.body-my-site {
+
 }
 
+.black-nav {
+  color: black;
+  background-color: white;
+}
+.body-index {
+   background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/996886/580/580/m1/fpnw/wm0/seamless-background-80s65-.jpg?1455603691&s=e7616985eac801bc87e55bae06441a32);
+   background-attachment: fixed;
+ }
 .container {
   width: 90%;
   max-height: 80%;
   margin: auto;
   text-align: center;
+  background-color: inherit;
 }
 
 /* image styling  */
 /* =================================  */
-img {
+.img {
   margin: 2em;
   max-width: 50%;
-  max-height: 50%;
+  max-height: 40%;
 }
 
 /* animation */
@@ -265,11 +281,19 @@ hr.style-two {
 }
 
 .header {
+  background-color:white;
   font-size: 5em;
   text-align: center;
   margin: auto;
   font-family: georgia;
   max-width: 75%;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+               0px -5px 35px rgba(255,255,255,0.3);
+  -webkit-text-fill-color: orange; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background: linear-gradient(white, transparent);
 }
 
 .footer {
@@ -279,6 +303,7 @@ hr.style-two {
   margin-top: 2em;
   margin-bottom: 1em;
   max-width: 80%;
+  background-color: inherit;
 }
 
 .about-me {
@@ -301,7 +326,8 @@ header nav {
 
 .navbar-brand {
   /* filter: opacity(0.75) */
-  background: linear-gradient(to bottom, white, transparent);
+  color: black;
+  background-color: white;
 }
 /* slant  */
 .se-container{

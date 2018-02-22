@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
     <link rel="icon" href="http://pngimg.com/uploads/eye/eye_PNG35680.png">
   </head>
-  <body class>
+  <body class= "body-form">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
@@ -18,7 +18,7 @@
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li><a class="black-nav" href="form.html">Make Your Own!</a></li>
-          <li><a class="black-nav" href="my-site.html">My Site :)</a></li>
+          <li><a class="black-nav" href="my-site.html">MyPlace :)</a></li>
         </ul>
       </div>
     </nav>
@@ -26,7 +26,7 @@
       <form class="the form" action="my-site.html" method="get">
         <h3>Theme</h3>
         Primary Theme <br>
-        <select class="primary-theme-options" name="theme">
+        <select data-selectgetter="primaryThemeOptions" class="primary-theme-options" name="theme">
           <option value="white">White</option>
           <option value="grey">Grey</option>
           <option value="black">Black</option>
@@ -34,7 +34,7 @@
         </select>
         <br> <br>
         Secondary Theme <br>
-        <select class="secondary-theme-options" name="theme">
+        <select data-selectgetter="secondaryThemeOptions" class="secondary-theme-options" name="theme">
           <option value="white2">White</option>
           <option value="grey2">Grey</option>
           <option value="black2">Black</option>
@@ -44,14 +44,14 @@
         <hr class= "style-two">
         <h3>Font</h3>
         Heading Font <br>
-        <select class="header-options" name="font">
+        <select data-selectgetter="headerOptions" class="header-options" name="font">
           <option value="actor">Actor</option>
           <option value="dekko">Dekko</option>
           <option value="georgia">Georgia</option>
           <option value="trebuchet">Trebuchet</option>
         </select><br> <br>
         Body Font <br>
-        <select class="body-options" name="font">
+        <select data-selectgetter="bodyOptions" class="body-options" name="font">
           <option value="actor">Actor</option>
           <option value="dekko">Dekko</option>
           <option value="georgia">Georgia</option>
@@ -68,7 +68,7 @@
         <br> <br>
         <hr class= "style-two">
         <h3>Ambience</h3>
-        <select class="ambience-options" name="ambience">
+        <select data-selectgetter="ambienceOptions" class="ambience-options" name="ambience">
           <option value="audio/gulls.mp3">Seagulls</option>
           <option value="audio/funky.mp3">Funky</option>
           <option value="audio/city.mp3">City</option>
@@ -78,21 +78,21 @@
         <hr class= "style-two">
         <h3>Page Content</h3>
         Heading: <br>
-        <input class="header-input" type="text" name="heading" value=""><br><br>
+        <input data-inputgetter="headerInput" class="header-input" type="text" name="heading" value=""><br><br>
         Footer: <br>
-        <input class="footer-input" type="text" name="footer" value=""><br><br>
+        <input data-inputgetter="footerInput" class="footer-input" type="text" name="footer" value=""><br><br>
         Image 1 Address: <br>
-        <input class="image1-input" type="url" name="img1" value=""><br>
+        <input data-inputgetter="image1Input" class="image1-input" type="url" name="img1" value=""><br>
         Body 1: <br>
-        <input class="bio1-input" type="text" name="bio1" value=""><br><br>
+        <input data-inputgetter="bioInput" class="bio1-input" type="text" name="bio1" value=""><br><br>
         Image 2 Address: <br>
-        <input class="image2-input" type="url" name="img2" value=""><br>
+        <input data-inputgetter="image2Input" class="image2-input" type="url" name="img2" value=""><br>
         Body 2: <br>
-        <input class="bio2-input" type="text" name="bio2" value=""><br><br>
+        <input data-inputgetter="bio2Input" class="bio2-input" type="text" name="bio2" value=""><br><br>
         Image 3 Address: <br>
-        <input class="image3-input" type="text" name="img3" value=""><br>
+        <input data-inputgetter="image3Input" class="image3-input" type="text" name="img3" value=""><br>
         Body 3: <br>
-        <input class="bio3-input" type="text" name="bio3" value=""><br><br>
+        <input data-inputgetter="bio3Input" class="bio3-input" type="text" name="bio3" value=""><br><br>
         <br>
         <button class="submit-button" type="submit" name="button">Make it!</button>
       </form>
