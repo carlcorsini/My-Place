@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
       header.innerHTML = headerOutput
       footer.innerHTML = footerOutput
       audio.src = ambienceStorage
-      img1.src = image1Output || "images/urdad.jpg"
-      img2.src = image2Output || "images/urdad.jpg"
-      img3.src = image3Output || "images/urdad.jpg"
+      img1.src = image1Output || "images/placeholder.png"
+      img2.src = image2Output || "images/placeholder.png"
+      img3.src = image3Output || "images/placeholder.png"
       bio1.innerHTML = bio1Output
       bio2.innerHTML = bio2Output
       bio3.innerHTML = bio3Output
