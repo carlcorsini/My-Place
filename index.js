@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 
+//example div
 function example (event) {
   let bodyOptions = document.querySelector('.body-options')
   let headerOptions = document.querySelector('.header-options')
@@ -27,26 +28,23 @@ function example (event) {
   headerExample.id = headerValue
 }
 
-
+//store stuff
 function changes (event) {
-  // options
   let selectArray= document.querySelectorAll('select')
   let inputArray= document.querySelectorAll('input')
-  selectArray.forEach(function(a) {
-    localStorage.setItem(a.dataset.selectgetter, JSON.stringify(a.value))
-  })
   inputArray.forEach(function(a) {
     localStorage.setItem(a.dataset.inputgetter, JSON.stringify(a.value))
   })
+  selectArray.forEach(function(a) {
+    localStorage.setItem(a.dataset.selectgetter, JSON.stringify(a.value))
+  })
 }
 
+//remember stuff
 function remember () {
   let inputArray = document.querySelectorAll('input')
   let selectArray = document.querySelectorAll('select')
   inputArray.forEach(function(a) {
     a.value = JSON.parse(localStorage.getItem(a.dataset.inputgetter)) || ''
-  })
-  selectArray.forEach(function(a) {
-    a.value = JSON.parse(localStorage.getItem(a.dataset.selectgetter)) || ''
   })
 }
