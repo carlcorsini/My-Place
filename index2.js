@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let headerStorage = JSON.parse(localStorage.getItem('headerOptions'));
   let bodyStorage = JSON.parse(localStorage.getItem('bodyOptions'));
   let ambienceStorage = JSON.parse(localStorage.getItem('ambienceOptions'));
+  let staggerStorage = JSON.parse(localStorage.getItem('staggerOptions'))
   let headerOutput = JSON.parse(localStorage.getItem('headerInput'));
   let footerOutput = JSON.parse(localStorage.getItem('footerInput'));
   let image1Output = JSON.parse(localStorage.getItem('image1Input'))
@@ -28,12 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
   let bio2 = document.querySelector('.bio2')
   let bio3 = document.querySelector('.bio3')
   let body = document.querySelector('.body-my-site')
-  // update DOM
+  // update elements
       myContainer.classList.add(primaryThemeStorage)
       body.classList.add(primaryThemeStorage)
-      row1.classList.add(bodyStorage, secondaryThemeStorage)
-      row2.classList.add(bodyStorage, secondaryThemeStorage)
-      rowRight.classList.add(bodyStorage, secondaryThemeStorage)
+      row1.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
+      row2.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
+      rowRight.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
       header.classList.add(headerStorage, primaryThemeStorage)
       footer.classList.add(headerStorage, secondaryThemeStorage)
       header.innerHTML = headerOutput

@@ -8,7 +8,7 @@
     <script src= "index.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
-    <link rel="icon" href="http://pngimg.com/uploads/eye/eye_PNG35680.png">
+    <link rel="icon" href="https://iconglory.com/wp-content/uploads/edd/2017/06/hammer-1-featured-1000x750.png">
   </head>
   <body class= "body-form">
     <nav class="navbar">
@@ -22,11 +22,14 @@
         </ul>
       </div>
     </nav>
+    <div class="fixed-header">
+      <p>Build your Own!</p>
+    </div>
     <div class="website-form">
       <form class="the form" action="my-site.html" method="get">
         <h3>Theme</h3>
         Primary Theme <br>
-        <select data-selectgetter="primaryThemeOptions" class="primary-theme-options" name="theme">
+        <select data-selectgetter="primaryThemeOptions" class="selecta primary-theme-options" name="theme">
           <option selected value="white">White</option>
           <option value="grey">Grey</option>
           <option value="black">Black</option>
@@ -34,24 +37,24 @@
         </select>
         <br> <br>
         Secondary Theme <br>
-        <select data-selectgetter="secondaryThemeOptions" class="secondary-theme-options" name="theme">
+        <select data-selectgetter="secondaryThemeOptions" class="selecta secondary-theme-options" name="theme">
           <option selected value="white2">White</option>
           <option value="grey2">Grey</option>
           <option value="black2">Black</option>
-          <option value="orange">Orange</option>
+          <option value="pink">Pink</option>
         </select>
         <br> <br>
         <hr class= "style-two">
         <h3>Font</h3>
         Heading Font <br>
-        <select data-selectgetter="headerOptions" class="header-options" name="font">
+        <select data-selectgetter="headerOptions" class="selecta header-options" name="font">
           <option selected value="actor">Actor</option>
           <option value="dekko">Dekko</option>
           <option value="georgia">Georgia</option>
           <option value="trebuchet">Trebuchet</option>
         </select><br> <br>
         Body Font <br>
-        <select data-selectgetter="bodyOptions" class="body-options" name="font">
+        <select data-selectgetter="bodyOptions" class="selecta body-options" name="font">
           <option selected value="actor">Actor</option>
           <option value="dekko">Dekko</option>
           <option value="georgia">Georgia</option>
@@ -63,12 +66,13 @@
             <div class="secondary-div">
               <p class ="font-example">here is the font, a jolly good example of the font I might add, a quite good example to figure out if this is the font you want to use indeed.</p>
             </div>
-            <button class="example-button" type="button" name="button">show me</button>
+            <button class="random-button" type="button" name="button">Random</button>
+            <button class="example-button" type="button" name="button">Show Me!</button>
           </div>
         <br> <br>
         <hr class= "style-two">
         <h3>Ambience</h3>
-        <select data-selectgetter="ambienceOptions" class="ambience-options" name="ambience">
+        <select data-selectgetter="ambienceOptions" class="selecta ambience-options" name="ambience">
           <option selected value="audio/gulls.mp3">Seagulls</option>
           <option value="audio/funky.mp3">Funky</option>
           <option value="audio/city.mp3">City</option>
@@ -77,23 +81,30 @@
         <br> <br>
         <hr class= "style-two">
         <h3>Page Content</h3>
+        <select data-selectgetter="staggerOptions" class="selecta stagger-options" name="stagger">
+          <option selected value="staggered">Staggered</option>
+          <option value="wide">Wide</option>
+        </select>
+        <br><br>
         Heading: <br>
-        <input data-inputgetter="headerInput" class="header-input" type="text" name="heading" value=""><br><br>
+        <textarea maxlength="50" data-textgetter="headerInput" class="textarea styled one-line" value="" name="styled-textarea" placeholder="Title of Page"></textarea> <br><br>
         Footer: <br>
-        <input data-inputgetter="footerInput" class="footer-input" type="text" name="footer" value=""><br><br>
+        <textarea maxlength="50" data-textgetter="footerInput" class="textarea styled one-line" value="" name="styled-textarea">hey</textarea><br><br>
         Image 1 Address: <br>
-        <input data-inputgetter="image1Input" class="image1-input" type="url" name="img1" value=""><br>
+        <input data-textgetter="image1Input" class="textarea styled one-line" type="url" value="" name="styled-textarea"><br>
         Body 1: <br>
-        <input data-inputgetter="bio1Input" class="bio1-input" type="text" name="bio1" value=""><br><br>
+        <textarea data-textgetter="bio1Input" class="textarea styled bio1-input" value="" name="styled-textarea"></textarea><br><br>
         Image 2 Address: <br>
-        <input data-inputgetter="image2Input" class="image2-input" type="url" name="img2" value=""><br>
+        <input type="url" data-textgetter="image2Input" class="textarea styled one-line" value="" name="styled-textarea"><br>
         Body 2: <br>
-        <input data-inputgetter="bio2Input" class="bio2-input" type="text" name="bio2" value=""><br><br>
+        <textarea data-textgetter="bio2Input" class="textarea styled bio2-input" value="" name="styled-textarea"></textarea><br><br>
         Image 3 Address: <br>
-        <input data-inputgetter="image3Input" class="image3-input" type="text" name="img3" value=""><br>
+        <input type="url" data-textgetter="image3Input" class="textarea styled one-line" value="" name="styled-textarea"><br>
         Body 3: <br>
-        <input data-inputgetter="bio3Input" class="bio3-input" type="text" name="bio3" value=""><br><br>
-        <br>
+        <textarea data-textgetter="bio3Input" class="textarea styled bio3-input" value="" name="styled-textarea"></textarea><br>
+        <!-- <div id="response">
+        </div> -->
+        <!-- <input class="more-button" type="button" onclick="addInput()" value="More!"> -->
         <button class="submit-button" type="submit" name="button">Make it!</button>
       </form>
     </div>
