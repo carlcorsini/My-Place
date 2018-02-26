@@ -10,13 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
   styleArray.forEach(textBoxFocus)
   styleArray.forEach(textBoxBlur)
   })
-
+  // blue text box on focus
   function textBoxFocus (a) {
     a.addEventListener('focus', function() {
     a.style.background='#e5fff3'
     })
   }
-
+  // back to white on blur
   function textBoxBlur (a) {
     a.addEventListener('blur', function() {
     a.style.background='white'
@@ -43,10 +43,12 @@ function example (event) {
   headerExample.id = headerValue
 }
 
+// random integer function
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
+// randomize style elements
 function random (event) {
   let primaryThemeOptions = document.querySelector('.primary-theme-options')
   let secondaryThemeOptions = document.querySelector('.secondary-theme-options')

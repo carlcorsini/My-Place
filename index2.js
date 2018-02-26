@@ -30,20 +30,20 @@ document.addEventListener('DOMContentLoaded', function() {
   let bio3 = document.querySelector('.bio3')
   let body = document.querySelector('.body-my-site')
   // update elements
-      myContainer.classList.add(primaryThemeStorage)
-      body.classList.add(primaryThemeStorage)
-      row1.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
-      row2.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
-      rowRight.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
-      header.classList.add(headerStorage, primaryThemeStorage)
-      footer.classList.add(headerStorage, secondaryThemeStorage)
-      header.innerHTML = headerOutput
-      footer.innerHTML = footerOutput
-      audio.src = ambienceStorage
-      img1.src = image1Output || "images/placeholder.png"
-      img2.src = image2Output || "images/placeholder.png"
-      img3.src = image3Output || "images/placeholder.png"
-      bio1.innerHTML = bio1Output
-      bio2.innerHTML = bio2Output
-      bio3.innerHTML = bio3Output
+  myContainer.classList.add(primaryThemeStorage)
+  body.classList.add(primaryThemeStorage)
+  row1.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
+  row2.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
+  rowRight.classList.add(bodyStorage, secondaryThemeStorage, staggerStorage)
+  header.classList.add(headerStorage, primaryThemeStorage)
+  footer.classList.add(headerStorage, secondaryThemeStorage)
+  header.innerHTML = headerOutput
+  footer.innerHTML = footerOutput
+  audio.src = ambienceStorage
+  img1.src = image1Output || "images/placeholder.png"
+  img2.src = image2Output || "images/placeholder.png"
+  img3.src = image3Output || "images/placeholder.png"
+  bio1.innerHTML = bio1Output
+  bio2.innerHTML = bio2Output
+  bio3.innerHTML = bio3Output
 })
