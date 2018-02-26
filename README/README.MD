@@ -19,6 +19,8 @@ H-ere You will find the landing page of MyPlace.
 -Here you will find a form to customize your Page.
 -You have the ability to change font, color themes, ambience (music) and fill in image and body data for your personalized site.
 -You can see a preview of your font and color combo by clicking the button titled "Show Me"
+-You can randomize the style by clicking the button titled "Random"
+-You can change the page style from staggered divs to a full page divs by choosing between staggered and wide
 -Press the button titled "Make It" to submit your MyPlace Page
 -You can find example images in the files called empty-form.png and filled-out-form.png
 
