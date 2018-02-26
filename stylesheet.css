@@ -2,7 +2,8 @@
 /* =============== */
 .blue {
   background-color: #6DE6DD;
-  background-image: url(https://thumbs.dreamstime.com/t/watercolor-triangles-seamless-pattern-modern-hipster-seamless-p-colorful-texture-style-geometry-template-grunge-39459786.jpg)
+  background-image: url(https://thumbs.dreamstime.com/t/watercolor-triangles-seamless-pattern-modern-hipster-seamless-p-colorful-texture-style-geometry-template-grunge-39459786.jpg);
+  background-attachment: fixed;
 }
 
 .pink {
