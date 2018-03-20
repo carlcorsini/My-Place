@@ -1,6 +1,6 @@
 # Project Title
 
-####MyPlace
+MyPlace
 
 Here you will find my Quarter 1 project from my Galvanize. The goal of this project was to create an interactive web page that stores data in local storage. In this project you will find Javascript, HTML & CSS all written by the author Carl Corsini. The project was meant to focus solely on front-end. It was an exciting project to create because it all started from a blank page. Some problems I came across was having 2 javascript files interacting with each other, and saving the form data when the user returns to the form page. I relied on local storage to store all of the form data and populated the users page with said data.
 
@@ -28,6 +28,6 @@ Here you will find my Quarter 1 project from my Galvanize. The goal of this proj
 
 ### MyPlace
 
-\*Here is your customized Page
+* Here is your customized Page
 
-\*Are you proud? Go wild!
+* Are you proud? Go wild!
