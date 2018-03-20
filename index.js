@@ -4,7 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let exampleButton = document.querySelector('.example-button')
   let randomButton = document.querySelector('.random-button')
   let styleArray = document.querySelectorAll(".styled")
+  try {
   form.addEventListener('submit', changes);
+} catch(err) {
+  //test
+}
   exampleButton.addEventListener('click', example)
   randomButton.addEventListener('click', random)
   styleArray.forEach(textBoxFocus)
@@ -20,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function textBoxBlur (a) {
     a.addEventListener('blur', function() {
     a.style.background='white'
-    })
+  });
   }
 
 //example div
