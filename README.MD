@@ -1,8 +1,8 @@
 # Project Title
 
-MyPlace
+My-Place
 
-Here you will find my Quarter 1 project from my Galvanize. The goal of this project was to create an interactive web page that stores data in local storage. In this project you will find Javascript, HTML & CSS all written by the author Carl Corsini. The project was meant to focus solely on front-end. It was an exciting project to create because it all started from a blank page. Some problems I came across was having 2 javascript files interacting with each other, and saving the form data when the user returns to the form page. I relied on local storage to store all of the form data and populated the users page with said data.
+My-Place is a web app designed to allow each user to create their own personal page with customizable options. The goal of this project to give the user multiple options in order to make their web page unique. This app is written entirely on the front end using HTML, CSS and JavaScript. You can choose the color, font, styling, and add photos to your page as well as add text. Each is able to come back to their page whenever they refresh or close their browser. This is one of my first responsive websites, and shows off some basic JavaScript tools like manipulating the DOM, accessing and storing in local storage, separation of responsibilities, and a bunch of hang written functions showing how data can be manipulated and send throughout the site.
 
 ## Getting Started
 
